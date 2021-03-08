@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Pavel Homal CV</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+</head>
+<body class="markdown-body">
+    <main>
+        <header class="header">
+            <h1>Pavel Homal</h1>
+        </header>
+
+        <section>
+            <figure class="avatar-container">
+                <img src="./images/chibi_me.png" alt="Avatar" class="avatar" />
+            </figure>
+
+            <blockquote>
+                <p>“Your time is limited, so don&#39;t waste it living someone else&#39;s life.”<br>― Steve Jobs</p>
+            </blockquote>
+        </section>
+
+        <section>
+            <h2 id="contacts">Contacts</h2>
+            <ul>
+                <li>Discord: <code>naXa777#3672</code></li>
+                <li>Phone: <code>+48 798 907 ***</code></li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 id="about-me">About me</h2>
+            <p>A freelancer software developer. Upwork Top Rated Plus talent.
+                Fullstack Engineer at <a href="https://found.ee/super">Found.ee</a>.</p>
+            <p>A skilled, knowledgeable and qualified specialist with a Bachelor&#39;s degree in Software Engineering. I have an
+                extensive background in computer programming.</p>
+            <p>It is my pleasure to help people implement their ideas. I would be glad if my skills and experience might be useful
+                to you. And at the same time, I am opened for new technologies, tools and methodologies.</p>
+        </section>
+
+        <section>
+            <h2 id="technologies-stack">Technologies stack</h2>
+            <ul>
+                <li>Front-end
+                    <ul>
+                        <li>HTML + CSS + JS</li>
+                        <li>TypeScript</li>
+                        <li>ReactJS</li>
+                        <li>Android</li>
+                        <li>Swagger codegen</li>
+                        <li>yarn</li>
+                    </ul>
+                </li>
+                <li>Back-end
+                    <ul>
+                        <li>Java</li>
+                        <li>Kotlin</li>
+                        <li>Spring Framework</li>
+                        <li>SQL</li>
+                        <li>Hibernate</li>
+                        <li>Liquibase</li>
+                        <li>FreeMarker</li>
+                        <li>Swagger UI</li>
+                        <li>Gradle and Maven</li>
+                    </ul>
+                </li>
+                <li>Other
+                    <ul>
+                        <li>Markdown</li>
+                        <li>XML</li>
+                        <li>JSON</li>
+                        <li>YAML</li>
+                        <li>Git</li>
+                        <li>Unity3D</li>
+                    </ul>
+                </li>
+            </ul>
+            <p>Favourite code editor: IntelliJ IDEA.</p>
+        </section>
+
+        <section>
+            <h2 id="code-sample">Code sample</h2>
+            <p>See my code in the pinned repositories on GitHub: <a href="https://github.com/naXa777">click here</a>.</p>
+            <p>Codewars Kata solution <sup>(see <a href="https://www.codewars.com/kata/58f5c63f1e26ecda7e000029">task
+                description</a>)</sup>:</p>
+            <div class="highlight">
+                <pre class="highlight"><code class="lang-kt"><span
+                    class="hljs-function"><span class="hljs-keyword">fun</span> <span class="hljs-title">wave</span><span
+    class="hljs-params">(str: <span class="hljs-type">String</span>)</span></span>: List&lt;String&gt; {
+    <span class="hljs-keyword">val</span> waveFrames = mutableListOf&lt;String&gt;()
+    <span class="hljs-keyword">val</span> chars = str.toCharArray()
+    <span class="hljs-keyword">for</span> (i <span class="hljs-keyword">in</span> chars.indices) {
+        <span class="hljs-keyword">if</span> (chars[i] == <span class="hljs-string">' '</span>) <span
+            class="hljs-keyword">continue</span>
+        chars[i] = chars[i].toUpperCase()
+        waveFrames.add(String(chars))
+        chars[i] = chars[i].toLowerCase()
+    }
+    <span class="hljs-keyword">return</span> waveFrames.toList()
+}</code>
+                </pre>
+            </div>
+        </section>
+
+        <section>
+            <h2 id="work-experience">Work Experience</h2>
+            <p><a href="https://exadel.com/">Exadel</a> ➱ <a href="https://www.scnsoft.com/">ScienceSoft</a> ➱
+                <strong>Freelance</strong></p>
+            <p>I switched to freelancing and was working remotely before it became mainstream in 2020.</p>
+            <p>See more details about my career on <a href="https://stackoverflow.com/cv/naxa">Stack Overflow</a>.</p>
+        </section>
+
+        <section>
+            <h2 id="education">Education</h2>
+            <ul>
+                <li>Studied Computer Science (Software Development) at Polotsk State University, Sep 2009 → Jun 2014</li>
+                <li>Studied at Braslaw Grammar School, Sep 2001 → Jun 2009</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 id="languages">Languages</h2>
+            <ul>
+                <li>Russian: Native</li>
+                <li>English: Self-assessed B2 level</li>
+                <li>Polish: A2 level</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
