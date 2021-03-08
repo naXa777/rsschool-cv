@@ -3,21 +3,38 @@
 ## Contacts
 
 Discord: naXa777#3672
+Phone: +48 798 907 ***
 
 ## About me
 
-A freelancer software developer.
+A freelancer software developer. Upwork Top Rated Plus talent.
 
 Fullstack Engineer at [Found.ee](https://found.ee/super).
 
 ## Technologies stack
 
-* Markdown
-* Kotlin
-* TypeScript
-* Spring Framework
-* ReactJS
-* HTML + CSS + JS
+* Front-end
+    * HTML + CSS + JS
+    * TypeScript
+    * ReactJS
+    * Android
+    * Swagger codegen
+    * yarn
+* Back-end
+    * SQL
+    * Java
+    * Kotlin
+    * Spring Framework
+    * Liquibase
+    * FreeMarker
+    * Swagger UI
+    * Gradle and Maven
+* Other
+    * Markdown
+    * XML
+    * JSON
+    * YAML
+    * Git
 
 ## Code sample
 
