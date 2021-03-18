@@ -66,6 +66,16 @@ fun wave(str: String): List<String> {
 }
 ```
 
+A function to count cats in a multidimensional array:
+
+```js
+function countCats(matrix) {
+    return matrix
+        .flat(Infinity)
+        .reduce((count, cat) => count + 1 * (cat === '^^'), 0);
+}
+```
+
 ## Work Experience
 
 [Exadel](https://exadel.com/) ➱ [ScienceSoft](https://www.scnsoft.com/) ➱ **Freelance**
